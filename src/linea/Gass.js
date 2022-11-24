@@ -124,7 +124,7 @@ class Gass extends Component{
         return (
             <div style={{padding: "30px" }}>
                 <div class="content ">
-                    <h2>Gauss Elimination</h2>
+                    <h2>GAUSS ELIMINATION</h2>
                  </div>
                 <div className="row">
                     <div className="col">
@@ -137,8 +137,8 @@ class Gass extends Component{
 
                             {this.state.showDimentionForm &&
                                 <div>
-                                    <h2 style={{color:"white"}}>Row</h2><Input size="large" name="row" style={InputStyle}></Input>
-                                    <h2 style={{color:"white"}}>Column</h2><Input size="large" name="column" style={InputStyle}></Input>
+                                    <h4 style={{color:"white"}}>Row</h4><Input size="large" name="row" style={InputStyle}></Input>
+                                    <h4 style={{color:"white"}}>Column</h4><Input size="large" name="column" style={InputStyle}></Input>
                                     <Button id="dimention_button" onClick={
                                         () => this.createMatrix(this.state.row, this.state.column)
                                     }
@@ -150,8 +150,8 @@ class Gass extends Component{
 
                             {this.state.showMatrixForm &&
                                 <div>
-                                    <h2 style={{color:"white"}}>Matrix [A]</h2><br />{matrixA}
-                                    <h2 style={{color:"white"}}>Vector [B]<br /></h2>{matrixB}
+                                    <h4 style={{color:"white"}}>Matrix [A]</h4><br />{matrixA}
+                                    <h4 style={{color:"white"}}>Vector [B]<br /></h4>{matrixB}
                                     <br/>
                                     <Button
                                         id="matrix_button"

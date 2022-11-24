@@ -23,7 +23,7 @@ export const NavBar = () =>{
 
         <Navbar bg="dark" expand="lg" variant='dark'>
         <Container>
-          <Navbar.Brand style={Brandstyle}>Numerical Method</Navbar.Brand>
+        <Link style={Fontstyle} to="/"><Navbar.Brand style={Brandstyle}>Numerical Method</Navbar.Brand></Link>
           <Link style={Fontstyle} to="/"><img src={IconHome} className="App-icon" alt="logo" /></Link>
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
           <Navbar.Collapse id="basic-navbar-nav">

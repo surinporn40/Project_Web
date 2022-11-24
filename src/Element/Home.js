@@ -38,28 +38,8 @@ class Home extends Component{
                     
                 </div>
             </div>
-            <section class="about">
-                <div class="main">
-                </div>
-            </section>
-            <div class="contact">
-                <div class="title">
-                    <h2>CONTACT</h2>
-                </div>
-                <div class="box">
-                <div class="card">
-                    <h5>ชั้นไม่รู้และยังคงไม่แน่ใจ</h5> 
-                    <p>ชั้นไม่รู้และยังคงไม่แน่ใจ</p> 
-                    <p>ชั้นไม่รู้และยังคงไม่แน่ใจ</p> 
-                </div>
-                <div class="card">
-                    <h5>ชั้นไม่รู้และยังคงไม่แน่ใจ</h5> 
-                    <p>ชั้นไม่รู้และยังคงไม่แน่ใจ</p> 
-                    <p>ชั้นไม่รู้และยังคงไม่แน่ใจ</p> 
-                </div>
-                
-            </div>
-            </div>
+            
+           
             <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
             
             </body>

@@ -125,7 +125,7 @@ class Cramer extends Component {
         return (
             <div style={{padding: "30px" }}>
                  <div class="content ">
-                    <h2>Cramer's Rule</h2>
+                    <h2>CRAMER'S RULE</h2>
                  </div>
                 
                 <div className="row">
@@ -149,8 +149,8 @@ class Cramer extends Component {
                             }
                             {this.state.showMatrixForm &&
                                 <div>
-                                    <h2 style={{color:"white"}}>Matrix [A]</h2><br />{matrixA}
-                                    <h2 style={{color:"white"}}>Vector [B]<br /></h2>{matrixB}<br/>
+                                    <h4 style={{color:"white"}}>Matrix [A]</h4><br />{matrixA}
+                                    <h4 style={{color:"white"}}>Vector [B]<br /></h4>{matrixB}<br/>
                                     <Button
                                         size="large"
                                         id="matrix_button"
